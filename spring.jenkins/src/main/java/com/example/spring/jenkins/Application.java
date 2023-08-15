@@ -17,6 +17,7 @@ public class Application {
 	public static void main(String[] args) {
 		logger.info("Application has been executed....");
 		SpringApplication.run(Application.class, args);
+		logger.info("Application has been done");
 	}
 
 }
